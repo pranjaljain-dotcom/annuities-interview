@@ -1,0 +1,32 @@
+<script>if(typeof navigateTo==='undefined'){window.location.replace('index.html');}</script>
+<div class="content-stack">
+  <div class="back-bar">
+    <a class="back-btn" id="btn-back">
+      <div style="width:24px;height:24px;overflow:hidden;position:relative;flex-shrink:0;"><div style="position:absolute;inset:16.67%;"><img alt="" style="position:absolute;display:block;max-width:none;width:100%;height:100%;" src="../icons/54153925-8d30-453b-835c-430c5c5d1674.svg"/></div></div>
+      <span>Back</span>
+    </a>
+  </div>
+  <div class="card">
+    <p class="step-counter"><span class="seg">About You</span>&nbsp;&nbsp;·&nbsp;&nbsp;6 of 6</p>
+    <h1 class="q-heading">Where should we send your results?</h1>
+    <p class="q-desc">We'll send your personalized annuity options directly to you.</p>
+    <div style="display:flex;flex-direction:column;gap:20px;margin-bottom:32px;">
+      <div>
+        <p class="field-label">Full name</p>
+        <input class="text-input" type="text" id="name-input" placeholder="Jane Smith" autocomplete="name"/>
+      </div>
+      <div>
+        <p class="field-label">Email address</p>
+        <input class="text-input" type="email" id="email-input" placeholder="you@example.com" autocomplete="email" inputmode="email"/>
+      </div>
+      <div>
+        <p class="field-label">Phone number</p>
+        <div class="phone-wrap">
+          <div class="phone-prefix">+1</div>
+          <input class="text-input" type="tel" id="phone-input" placeholder="(555) 000-0000" autocomplete="tel" inputmode="tel"/>
+        </div>
+      </div>
+    </div>
+    <button class="btn-continue btn-disabled" id="btn-continue" disabled>Get My Results</button>
+  </div>
+</div>
